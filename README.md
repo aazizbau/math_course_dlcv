@@ -20,10 +20,20 @@ days/
       visualizations.py
     outputs/
       *.gif
+  day02/
+    day02_norms_angles.ipynb
+    code/
+      norms_and_angles.py
+      visualizations.py
+    outputs/
+      *.gif / *.png
 README.md
 ```
 
-Future days should mirror this shape, making it easy to navigate the course timeline.
+Future days should mirror this shape, making it easy to navigate the course timeline. Completed notebooks so far:
+
+- `days/day01/day01_arrows_and_machines.ipynb` — geometric storytelling of matrix machines.
+- `days/day02/day02_norms_angles.ipynb` — vector norms, angles, cosine similarity, and normalization.
 
 ## Environment Setup
 
@@ -38,11 +48,16 @@ Launch notebooks with `jupyter lab` or `jupyter notebook` from the repo root so 
 ## Running Day 1 Code Headless
 
 ```bash
+# Day 1
 python days/day01/code/arrows_and_machines.py
-python days/day01/code/visualizations.py  # writes GIFs to days/day01/outputs/
+python days/day01/code/visualizations.py  # GIFs → days/day01/outputs/
+
+# Day 2
+python days/day02/code/norms_and_angles.py
+python days/day02/code/visualizations.py  # GIFs/PNGs → days/day02/outputs/
 ```
 
-The notebook `days/day01/day01_arrows_and_machines.ipynb` walks through the same math with commentary plus links back to these scripts.
+Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
 
 ## Git & GitHub Workflow
 
