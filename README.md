@@ -27,6 +27,13 @@ days/
       visualizations.py
     outputs/
       *.gif / *.png
+  day03/
+    day03_gradient_descent.ipynb
+    code/
+      gradient_descent.py
+      visualizations.py
+    outputs/
+      *.gif / *.png
 README.md
 ```
 
@@ -34,6 +41,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 
 - `days/day01/day01_arrows_and_machines.ipynb` — geometric storytelling of matrix machines.
 - `days/day02/day02_norms_angles.ipynb` — vector norms, angles, cosine similarity, and normalization.
+- `days/day03/day03_gradient_descent.ipynb` — gradient descent intuition, learning rate effects, and visualizations.
 
 ## Environment Setup
 
@@ -49,12 +57,16 @@ Launch notebooks with `jupyter lab` or `jupyter notebook` from the repo root so 
 
 ```bash
 # Day 1
-python days/day01/code/arrows_and_machines.py
-python days/day01/code/visualizations.py  # GIFs → days/day01/outputs/
+python -m days.day01.code.arrows_and_machines
+python -m days.day01.code.visualizations   # GIFs → days/day01/outputs/
 
 # Day 2
-python days/day02/code/norms_and_angles.py
-python days/day02/code/visualizations.py  # GIFs/PNGs → days/day02/outputs/
+python -m days.day02.code.norms_and_angles
+python -m days.day02.code.visualizations   # GIFs/PNGs → days/day02/outputs/
+
+# Day 3
+python -m days.day03.code.gradient_descent
+python -m days.day03.code.visualizations   # GIFs/PNGs → days/day03/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
