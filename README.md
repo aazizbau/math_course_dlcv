@@ -34,6 +34,13 @@ days/
       visualizations.py
     outputs/
       *.gif / *.png
+  day04/
+    day04_momentum.ipynb
+    code/
+      momentum_methods.py
+      visualizations.py
+    outputs/
+      *.gif / *.png
 README.md
 ```
 
@@ -42,6 +49,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day01/day01_arrows_and_machines.ipynb` — geometric storytelling of matrix machines.
 - `days/day02/day02_norms_angles.ipynb` — vector norms, angles, cosine similarity, and normalization.
 - `days/day03/day03_gradient_descent.ipynb` — gradient descent intuition, learning rate effects, and visualizations.
+- `days/day04/day04_momentum.ipynb` — momentum, Nesterov, and inertia-driven optimization stories.
 
 ## Environment Setup
 
@@ -67,6 +75,10 @@ python -m days.day02.code.visualizations   # GIFs/PNGs → days/day02/outputs/
 # Day 3
 python -m days.day03.code.gradient_descent
 python -m days.day03.code.visualizations   # GIFs/PNGs → days/day03/outputs/
+
+# Day 4
+python -m days.day04.code.momentum_methods
+python -m days.day04.code.visualizations   # GIFs/PNGs → days/day04/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
