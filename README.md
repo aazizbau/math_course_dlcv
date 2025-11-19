@@ -55,6 +55,13 @@ days/
       visualizations.py
     outputs/
       *.gif / *.png
+  day07/
+    day07_jacobians.ipynb
+    code/
+      jacobian_demo.py
+      visualizations.py
+    outputs/
+      *.gif / *.png
 README.md
 ```
 
@@ -66,6 +73,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day04/day04_momentum.ipynb` — momentum, Nesterov, and inertia-driven optimization stories.
 - `days/day05/day05_backprop.ipynb` — chain rule intuition, backprop demo, and gradient-flow visualization.
 - `days/day06/day06_landscapes.ipynb` — convex vs non-convex surfaces, curvature, and landscape animations.
+- `days/day07/day07_jacobians.ipynb` — Jacobian intuition, local linearization, and sensitivity visualizations.
 
 ## Environment Setup
 
@@ -103,6 +111,10 @@ python -m days.day05.code.visualizations   # GIFs/PNGs → days/day05/outputs/
 # Day 6
 python -m days.day06.code.landscapes
 python -m days.day06.code.visualizations   # GIFs/PNGs → days/day06/outputs/
+
+# Day 7
+python -m days.day07.code.jacobian_demo
+python -m days.day07.code.visualizations   # GIFs/PNGs → days/day07/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
