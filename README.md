@@ -97,6 +97,13 @@ days/
       visualizations.py
     outputs/
       *.gif / *.png
+  day13/
+    day13_pooling.ipynb
+    code/
+      pooling.py
+      visualizations.py
+    outputs/
+      *.gif / *.png
 README.md
 ```
 
@@ -114,6 +121,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day10/day10_activations.ipynb` — activation geometry, derivatives, and optimization effects.
 - `days/day11/day11_normalization.ipynb` — BatchNorm vs LayerNorm, stability intuition, and distribution visualizations.
 - `days/day12/day12_initialization.ipynb` — Xavier/He intuition and signal-balance simulations.
+- `days/day13/day13_pooling.ipynb` — pooling, downsampling, and hierarchical feature demos.
 
 ## Environment Setup
 
@@ -175,6 +183,10 @@ python -m days.day11.code.visualizations   # GIFs/PNGs → days/day11/outputs/
 # Day 12
 python -m days.day12.code.initialization
 python -m days.day12.code.visualizations   # GIFs/PNGs → days/day12/outputs/
+
+# Day 13
+python -m days.day13.code.pooling
+python -m days.day13.code.visualizations   # GIFs/PNGs → days/day13/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
