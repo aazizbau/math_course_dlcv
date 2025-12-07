@@ -104,6 +104,13 @@ days/
       visualizations.py
     outputs/
       *.gif / *.png
+  day14/
+    day14_receptive_fields.ipynb
+    code/
+      receptive_field.py
+      visualizations.py
+    outputs/
+      *.gif / *.png
 README.md
 ```
 
@@ -122,6 +129,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day11/day11_normalization.ipynb` — BatchNorm vs LayerNorm, stability intuition, and distribution visualizations.
 - `days/day12/day12_initialization.ipynb` — Xavier/He intuition and signal-balance simulations.
 - `days/day13/day13_pooling.ipynb` — pooling, downsampling, and hierarchical feature demos.
+- `days/day14/day14_receptive_fields.ipynb` — receptive-field growth and multi-scale context visualizations.
 
 ## Environment Setup
 
@@ -187,6 +195,10 @@ python -m days.day12.code.visualizations   # GIFs/PNGs → days/day12/outputs/
 # Day 13
 python -m days.day13.code.pooling
 python -m days.day13.code.visualizations   # GIFs/PNGs → days/day13/outputs/
+
+# Day 14
+python -m days.day14.code.receptive_field
+python -m days.day14.code.visualizations   # GIFs/PNGs → days/day14/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
