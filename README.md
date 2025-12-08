@@ -111,6 +111,13 @@ days/
       visualizations.py
     outputs/
       *.gif / *.png
+  day15/
+    day15_padding_stride.ipynb
+    code/
+      padding_stride.py
+      visualizations.py
+    outputs/
+      *.gif / *.png
 README.md
 ```
 
@@ -130,6 +137,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day12/day12_initialization.ipynb` — Xavier/He intuition and signal-balance simulations.
 - `days/day13/day13_pooling.ipynb` — pooling, downsampling, and hierarchical feature demos.
 - `days/day14/day14_receptive_fields.ipynb` — receptive-field growth and multi-scale context visualizations.
+- `days/day15/day15_padding_stride.ipynb` — padding/stride geometry demos and stride animations.
 
 ## Environment Setup
 
@@ -199,6 +207,10 @@ python -m days.day13.code.visualizations   # GIFs/PNGs → days/day13/outputs/
 # Day 14
 python -m days.day14.code.receptive_field
 python -m days.day14.code.visualizations   # GIFs/PNGs → days/day14/outputs/
+
+# Day 15
+python -m days.day15.code.padding_stride
+python -m days.day15.code.visualizations   # GIFs/PNGs → days/day15/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
