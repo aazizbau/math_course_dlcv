@@ -125,6 +125,13 @@ days/
       visualizations.py
     outputs/
       *.gif / *.png
+  day17/
+    day17_conv_backprop.ipynb
+    code/
+      conv_backprop.py
+      visualizations.py
+    outputs/
+      *.gif / *.png
 README.md
 ```
 
@@ -146,6 +153,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day14/day14_receptive_fields.ipynb` — receptive-field growth and multi-scale context visualizations.
 - `days/day15/day15_padding_stride.ipynb` — padding/stride geometry demos and stride animations.
 - `days/day16/day16_dilated_conv.ipynb` — dilated convolution demos and receptive-field animations.
+- `days/day17/day17_conv_backprop.ipynb` — convolution backprop intuition and gradient animations.
 
 ## Environment Setup
 
@@ -223,6 +231,10 @@ python -m days.day15.code.visualizations   # GIFs/PNGs → days/day15/outputs/
 # Day 16
 python -m days.day16.code.dilated_conv
 python -m days.day16.code.visualizations   # GIFs/PNGs → days/day16/outputs/
+
+# Day 17
+python -m days.day17.code.conv_backprop
+python -m days.day17.code.visualizations   # GIFs/PNGs → days/day17/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
