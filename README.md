@@ -139,6 +139,13 @@ days/
       visualizations.py
     outputs/
       *.gif / *.png
+  day19/
+    day19_feature_visualization.ipynb
+    code/
+      feature_visualization.py
+      visualizations.py
+    outputs/
+      *.gif / *.png
 README.md
 ```
 
@@ -247,6 +254,10 @@ python -m days.day17.code.visualizations   # GIFs/PNGs → days/day17/outputs/
 # Day 18
 python -m days.day18.code.fc_vs_conv
 python -m days.day18.code.visualizations   # GIFs/PNGs → days/day18/outputs/
+
+# Day 19
+python -m days.day19.code.feature_visualization
+python -m days.day19.code.visualizations   # GIFs/PNGs → days/day19/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
