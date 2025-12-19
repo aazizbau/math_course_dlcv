@@ -146,6 +146,13 @@ days/
       visualizations.py
     outputs/
       *.gif / *.png
+  day20/
+    day20_modern_cnns.ipynb
+    code/
+      architecture_summary.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -169,6 +176,8 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day16/day16_dilated_conv.ipynb` — dilated convolution demos and receptive-field animations.
 - `days/day17/day17_conv_backprop.ipynb` — convolution backprop intuition and gradient animations.
 - `days/day18/day18_fc_vs_conv.ipynb` — FC vs conv geometry and gradient comparisons.
+- `days/day19/day19_feature_visualization.ipynb` — CNN feature maps, filter dreams, and DeepDream-style explorations.
+- `days/day20/day20_modern_cnns.ipynb` — modern CNN architecture tour from VGG through ConvNeXt.
 
 ## Environment Setup
 
@@ -258,6 +267,10 @@ python -m days.day18.code.visualizations   # GIFs/PNGs → days/day18/outputs/
 # Day 19
 python -m days.day19.code.feature_visualization
 python -m days.day19.code.visualizations   # GIFs/PNGs → days/day19/outputs/
+
+# Day 20
+python -m days.day20.code.architecture_summary
+python -m days.day20.code.visualizations   # PNG plots → days/day20/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
