@@ -160,6 +160,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day22/
+    day22_loss_functions.ipynb
+    code/
+      losses.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -186,6 +193,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day19/day19_feature_visualization.ipynb` — CNN feature maps, filter dreams, and DeepDream-style explorations.
 - `days/day20/day20_modern_cnns.ipynb` — modern CNN architecture tour from VGG through ConvNeXt.
 - `days/day21/day21_encoder_decoder.ipynb` — UNet/FPN encoder–decoder intuition for dense prediction.
+- `days/day22/day22_loss_functions.ipynb` — dense prediction loss functions (CE, Dice, IoU, Focal) and imbalance intuition.
 
 ## Environment Setup
 
@@ -283,6 +291,10 @@ python -m days.day20.code.visualizations   # PNG plots → days/day20/outputs/
 # Day 21
 python -m days.day21.code.encoder_decoder
 python -m days.day21.code.visualizations   # PNG diagrams → days/day21/outputs/
+
+# Day 22
+python -m days.day22.code.losses
+python -m days.day22.code.visualizations   # PNG plots → days/day22/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
