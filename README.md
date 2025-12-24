@@ -167,6 +167,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day23/
+    day23_segmentation_metrics.ipynb
+    code/
+      metrics.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -194,6 +201,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day20/day20_modern_cnns.ipynb` — modern CNN architecture tour from VGG through ConvNeXt.
 - `days/day21/day21_encoder_decoder.ipynb` — UNet/FPN encoder–decoder intuition for dense prediction.
 - `days/day22/day22_loss_functions.ipynb` — dense prediction loss functions (CE, Dice, IoU, Focal) and imbalance intuition.
+- `days/day23/day23_segmentation_metrics.ipynb` — segmentation metrics (IoU, mIoU, F1, boundary accuracy) and evaluation intuition.
 
 ## Environment Setup
 
@@ -295,6 +303,10 @@ python -m days.day21.code.visualizations   # PNG diagrams → days/day21/outputs
 # Day 22
 python -m days.day22.code.losses
 python -m days.day22.code.visualizations   # PNG plots → days/day22/outputs/
+
+# Day 23
+python -m days.day23.code.metrics
+python -m days.day23.code.visualizations   # PNG plots → days/day23/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
