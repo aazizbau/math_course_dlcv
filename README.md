@@ -181,6 +181,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day25/
+    day25_postprocessing.ipynb
+    code/
+      postprocessing.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -210,6 +217,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day22/day22_loss_functions.ipynb` — dense prediction loss functions (CE, Dice, IoU, Focal) and imbalance intuition.
 - `days/day23/day23_segmentation_metrics.ipynb` — segmentation metrics (IoU, mIoU, F1, boundary accuracy) and evaluation intuition.
 - `days/day24/day24_training_strategies.ipynb` — LR schedules, augmentation, and curriculum strategies for dense prediction.
+- `days/day25/day25_postprocessing.ipynb` — post-processing with morphology, connected components, and CRF intuition.
 
 ## Environment Setup
 
@@ -319,6 +327,10 @@ python -m days.day23.code.visualizations   # PNG plots → days/day23/outputs/
 # Day 24
 python -m days.day24.code.training_strategies
 python -m days.day24.code.visualizations   # PNG plots → days/day24/outputs/
+
+# Day 25
+python -m days.day25.code.postprocessing
+python -m days.day25.code.visualizations   # PNG plots → days/day25/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
