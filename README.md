@@ -202,6 +202,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day28/
+    day28_eo_foundations.ipynb
+    code/
+      embeddings_demo.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -234,6 +241,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day25/day25_postprocessing.ipynb` — post-processing with morphology, connected components, and CRF intuition.
 - `days/day26/day26_change_detection.ipynb` — change detection architectures and losses (remote sensing focus).
 - `days/day27/day27_multimodal_fusion.ipynb` — optical + SAR + DEM fusion strategies for remote sensing.
+- `days/day28/day28_eo_foundations.ipynb` — EO foundation models and embedding-based workflows.
 
 ## Environment Setup
 
@@ -355,6 +363,10 @@ python -m days.day26.code.visualizations   # PNG plots → days/day26/outputs/
 # Day 27
 python -m days.day27.code.fusion_strategies
 python -m days.day27.code.visualizations   # PNG plots → days/day27/outputs/
+
+# Day 28
+python -m days.day28.code.embeddings_demo
+python -m days.day28.code.visualizations   # PNG plots → days/day28/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
