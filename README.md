@@ -195,6 +195,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day27/
+    day27_multimodal_fusion.ipynb
+    code/
+      fusion_strategies.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -226,6 +233,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day24/day24_training_strategies.ipynb` — LR schedules, augmentation, and curriculum strategies for dense prediction.
 - `days/day25/day25_postprocessing.ipynb` — post-processing with morphology, connected components, and CRF intuition.
 - `days/day26/day26_change_detection.ipynb` — change detection architectures and losses (remote sensing focus).
+- `days/day27/day27_multimodal_fusion.ipynb` — optical + SAR + DEM fusion strategies for remote sensing.
 
 ## Environment Setup
 
@@ -343,6 +351,10 @@ python -m days.day25.code.visualizations   # PNG plots → days/day25/outputs/
 # Day 26
 python -m days.day26.code.change_detection
 python -m days.day26.code.visualizations   # PNG plots → days/day26/outputs/
+
+# Day 27
+python -m days.day27.code.fusion_strategies
+python -m days.day27.code.visualizations   # PNG plots → days/day27/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
