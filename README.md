@@ -223,6 +223,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day31/
+    day31_svd.ipynb
+    code/
+      svd_demo.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -258,6 +265,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day28/day28_eo_foundations.ipynb` — EO foundation models and embedding-based workflows.
 - `days/day29/day29_gnn_eo.ipynb` — graph neural networks for parcels, roads, and spatial relations in EO.
 - `days/day30/day30_uncertainty_calibration.ipynb` — uncertainty estimation and calibration for EO decisions.
+- `days/day31/day31_svd.ipynb` — SVD geometry and singular value intuition.
 
 ## Environment Setup
 
@@ -391,6 +399,10 @@ python -m days.day29.code.visualizations   # PNG plots → days/day29/outputs/
 # Day 30
 python -m days.day30.code.uncertainty_calibration
 python -m days.day30.code.visualizations   # PNG plots → days/day30/outputs/
+
+# Day 31
+python -m days.day31.code.svd_demo
+python -m days.day31.code.visualizations   # PNG plots → days/day31/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
