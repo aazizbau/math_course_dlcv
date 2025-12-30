@@ -216,6 +216,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day30/
+    day30_uncertainty_calibration.ipynb
+    code/
+      uncertainty_calibration.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -250,6 +257,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day27/day27_multimodal_fusion.ipynb` — optical + SAR + DEM fusion strategies for remote sensing.
 - `days/day28/day28_eo_foundations.ipynb` — EO foundation models and embedding-based workflows.
 - `days/day29/day29_gnn_eo.ipynb` — graph neural networks for parcels, roads, and spatial relations in EO.
+- `days/day30/day30_uncertainty_calibration.ipynb` — uncertainty estimation and calibration for EO decisions.
 
 ## Environment Setup
 
@@ -379,6 +387,10 @@ python -m days.day28.code.visualizations   # PNG plots → days/day28/outputs/
 # Day 29
 python -m days.day29.code.gnn_demo
 python -m days.day29.code.visualizations   # PNG plots → days/day29/outputs/
+
+# Day 30
+python -m days.day30.code.uncertainty_calibration
+python -m days.day30.code.visualizations   # PNG plots → days/day30/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
