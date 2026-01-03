@@ -251,6 +251,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day35/
+    day35_embedding_geometry.ipynb
+    code/
+      embedding_geometry.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -290,6 +297,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day32/day32_pca.ipynb` — PCA geometry, explained variance, and reconstruction.
 - `days/day33/day33_rank_nullspace.ipynb` — rank, null space, and information loss in linear layers.
 - `days/day34/day34_condition_number.ipynb` — condition number intuition and numerical stability.
+- `days/day35/day35_embedding_geometry.ipynb` — embedding distance, cosine similarity, and collapse detection.
 
 ## Environment Setup
 
@@ -439,6 +447,10 @@ python -m days.day33.code.visualizations   # PNG plots → days/day33/outputs/
 # Day 34
 python -m days.day34.code.condition_number
 python -m days.day34.code.visualizations   # PNG plots → days/day34/outputs/
+
+# Day 35
+python -m days.day35.code.embedding_geometry
+python -m days.day35.code.visualizations   # PNG plots → days/day35/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
