@@ -265,6 +265,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day37/
+    day37_partial_derivatives.ipynb
+    code/
+      partial_derivatives.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -306,6 +313,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day34/day34_condition_number.ipynb` — condition number intuition and numerical stability.
 - `days/day35/day35_embedding_geometry.ipynb` — embedding distance, cosine similarity, and collapse detection.
 - `days/day36/day36_limits_continuity.ipynb` — limits, continuity, and why gradients exist.
+- `days/day37/day37_partial_derivatives.ipynb` — partial derivatives and multivariate slopes.
 
 ## Environment Setup
 
@@ -463,6 +471,10 @@ python -m days.day35.code.visualizations   # PNG plots → days/day35/outputs/
 # Day 36
 python -m days.day36.code.limits_continuity
 python -m days.day36.code.visualizations   # PNG plots → days/day36/outputs/
+
+# Day 37
+python -m days.day37.code.partial_derivatives
+python -m days.day37.code.visualizations   # PNG plots → days/day37/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
