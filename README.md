@@ -286,6 +286,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day40/
+    day40_chain_rule.ipynb
+    code/
+      chain_rule.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -330,6 +337,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day37/day37_partial_derivatives.ipynb` — partial derivatives and multivariate slopes.
 - `days/day38/day38_gradient_vector.ipynb` — gradient vector geometry and steepest descent.
 - `days/day39/day39_jacobian.ipynb` — Jacobian sensitivity and local linearity for vector outputs.
+- `days/day40/day40_chain_rule.ipynb` — chain rule and computational graphs for backprop.
 
 ## Environment Setup
 
@@ -499,6 +507,10 @@ python -m days.day38.code.visualizations   # PNG plots → days/day38/outputs/
 # Day 39
 python -m days.day39.code.jacobian_demo
 python -m days.day39.code.visualizations   # PNG plots → days/day39/outputs/
+
+# Day 40
+python -m days.day40.code.chain_rule
+python -m days.day40.code.visualizations   # PNG plots → days/day40/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
