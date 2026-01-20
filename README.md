@@ -307,6 +307,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day43/
+    day43_critical_points.ipynb
+    code/
+      critical_points.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -354,6 +361,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day40/day40_chain_rule.ipynb` — chain rule and computational graphs for backprop.
 - `days/day41/day41_hessian.ipynb` — Hessian curvature, saddles, and second-order intuition.
 - `days/day42/day42_taylor_expansion.ipynb` — Taylor expansion and local approximation.
+- `days/day43/day43_critical_points.ipynb` — critical points, saddle dominance, and Hessian classification.
 
 ## Environment Setup
 
@@ -535,6 +543,10 @@ python -m days.day41.code.visualizations   # PNG plots → days/day41/outputs/
 # Day 42
 python -m days.day42.code.taylor_demo
 python -m days.day42.code.visualizations   # PNG plots → days/day42/outputs/
+
+# Day 43
+python -m days.day43.code.critical_points
+python -m days.day43.code.visualizations   # PNG plots → days/day43/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
