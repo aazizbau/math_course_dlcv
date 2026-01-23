@@ -321,6 +321,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day45/
+    day45_initialization.ipynb
+    code/
+      initialization.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -370,6 +377,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day42/day42_taylor_expansion.ipynb` — Taylor expansion and local approximation.
 - `days/day43/day43_critical_points.ipynb` — critical points, saddle dominance, and Hessian classification.
 - `days/day44/day44_sgd_saddles.ipynb` — saddle dominance and why SGD noise helps.
+- `days/day45/day45_initialization.ipynb` — symmetry breaking and variance-stable initialization.
 
 ## Environment Setup
 
@@ -559,6 +567,10 @@ python -m days.day43.code.visualizations   # PNG plots → days/day43/outputs/
 # Day 44
 python -m days.day44.code.sgd_saddle
 python -m days.day44.code.visualizations   # PNG plots → days/day44/outputs/
+
+# Day 45
+python -m days.day45.code.initialization
+python -m days.day45.code.visualizations   # PNG plots → days/day45/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
