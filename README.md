@@ -335,6 +335,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day47/
+    day47_expectation_variance.ipynb
+    code/
+      expectation_variance.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -386,6 +393,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day44/day44_sgd_saddles.ipynb` — saddle dominance and why SGD noise helps.
 - `days/day45/day45_initialization.ipynb` — symmetry breaking and variance-stable initialization.
 - `days/day46/day46_random_variables.ipynb` — random variables, distributions, and statistical learning intuition.
+- `days/day47/day47_expectation_variance.ipynb` — expectation, variance, and concentration intuition for averaging.
 
 ## Environment Setup
 
@@ -583,6 +591,10 @@ python -m days.day45.code.visualizations   # PNG plots → days/day45/outputs/
 # Day 46
 python -m days.day46.code.random_variables
 python -m days.day46.code.visualizations   # PNG plots → days/day46/outputs/
+
+# Day 47
+python -m days.day47.code.expectation_variance
+python -m days.day47.code.visualizations   # PNG plots → days/day47/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
