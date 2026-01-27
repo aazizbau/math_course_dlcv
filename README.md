@@ -356,6 +356,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day50/
+    day50_bias_variance.ipynb
+    code/
+      bias_variance.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -410,6 +417,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day47/day47_expectation_variance.ipynb` — expectation, variance, and concentration intuition for averaging.
 - `days/day48/day48_mle.ipynb` — maximum likelihood estimation and why losses are log-likelihoods.
 - `days/day49/day49_cross_entropy_kl.ipynb` — cross-entropy, KL divergence, and information mismatch intuition.
+- `days/day50/day50_bias_variance.ipynb` — bias–variance tradeoff and generalization intuition.
 
 ## Environment Setup
 
@@ -619,6 +627,10 @@ python -m days.day48.code.visualizations   # PNG plots → days/day48/outputs/
 # Day 49
 python -m days.day49.code.info_measures
 python -m days.day49.code.visualizations   # PNG plots → days/day49/outputs/
+
+# Day 50
+python -m days.day50.code.bias_variance
+python -m days.day50.code.visualizations   # PNG plots → days/day50/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
