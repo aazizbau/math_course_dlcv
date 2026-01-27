@@ -349,6 +349,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day49/
+    day49_cross_entropy_kl.ipynb
+    code/
+      info_measures.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -402,6 +409,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day46/day46_random_variables.ipynb` — random variables, distributions, and statistical learning intuition.
 - `days/day47/day47_expectation_variance.ipynb` — expectation, variance, and concentration intuition for averaging.
 - `days/day48/day48_mle.ipynb` — maximum likelihood estimation and why losses are log-likelihoods.
+- `days/day49/day49_cross_entropy_kl.ipynb` — cross-entropy, KL divergence, and information mismatch intuition.
 
 ## Environment Setup
 
@@ -607,6 +615,10 @@ python -m days.day47.code.visualizations   # PNG plots → days/day47/outputs/
 # Day 48
 python -m days.day48.code.mle_demo
 python -m days.day48.code.visualizations   # PNG plots → days/day48/outputs/
+
+# Day 49
+python -m days.day49.code.info_measures
+python -m days.day49.code.visualizations   # PNG plots → days/day49/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
