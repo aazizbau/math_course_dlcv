@@ -363,6 +363,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day51/
+    day51_regularization_geometry.ipynb
+    code/
+      regularization_demo.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -418,6 +425,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day48/day48_mle.ipynb` — maximum likelihood estimation and why losses are log-likelihoods.
 - `days/day49/day49_cross_entropy_kl.ipynb` — cross-entropy, KL divergence, and information mismatch intuition.
 - `days/day50/day50_bias_variance.ipynb` — bias–variance tradeoff and generalization intuition.
+- `days/day51/day51_regularization_geometry.ipynb` — regularization geometry, L1/L2 constraints, and weight decay.
 
 ## Environment Setup
 
@@ -631,6 +639,10 @@ python -m days.day49.code.visualizations   # PNG plots → days/day49/outputs/
 # Day 50
 python -m days.day50.code.bias_variance
 python -m days.day50.code.visualizations   # PNG plots → days/day50/outputs/
+
+# Day 51
+python -m days.day51.code.regularization_demo
+python -m days.day51.code.visualizations   # PNG plots → days/day51/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
