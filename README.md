@@ -370,6 +370,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day52/
+    day52_dropout_noise.ipynb
+    code/
+      dropout_noise.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -426,6 +433,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day49/day49_cross_entropy_kl.ipynb` — cross-entropy, KL divergence, and information mismatch intuition.
 - `days/day50/day50_bias_variance.ipynb` — bias–variance tradeoff and generalization intuition.
 - `days/day51/day51_regularization_geometry.ipynb` — regularization geometry, L1/L2 constraints, and weight decay.
+- `days/day52/day52_dropout_noise.ipynb` — dropout, noise, and implicit regularization for generalization.
 
 ## Environment Setup
 
@@ -643,6 +651,10 @@ python -m days.day50.code.visualizations   # PNG plots → days/day50/outputs/
 # Day 51
 python -m days.day51.code.regularization_demo
 python -m days.day51.code.visualizations   # PNG plots → days/day51/outputs/
+
+# Day 52
+python -m days.day52.code.dropout_noise
+python -m days.day52.code.visualizations   # PNG plots → days/day52/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
