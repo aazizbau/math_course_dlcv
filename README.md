@@ -384,6 +384,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day54/
+    day54_loss_geometry.ipynb
+    code/
+      loss_geometry.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -442,6 +449,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day51/day51_regularization_geometry.ipynb` — regularization geometry, L1/L2 constraints, and weight decay.
 - `days/day52/day52_dropout_noise.ipynb` — dropout, noise, and implicit regularization for generalization.
 - `days/day53/day53_augmentation_invariance.ipynb` — data augmentation and invariance-based regularization.
+- `days/day54/day54_loss_geometry.ipynb` — margin losses, robust losses, and geometry-focused loss design.
 
 ## Environment Setup
 
@@ -667,6 +675,10 @@ python -m days.day52.code.visualizations   # PNG plots → days/day52/outputs/
 # Day 53
 python -m days.day53.code.augmentation_demo
 python -m days.day53.code.visualizations   # PNG plots → days/day53/outputs/
+
+# Day 54
+python -m days.day54.code.loss_geometry
+python -m days.day54.code.visualizations   # PNG plots → days/day54/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
