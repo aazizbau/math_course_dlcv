@@ -412,6 +412,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day58/
+    day58_information_bottleneck.ipynb
+    code/
+      information_bottleneck_demo.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -474,6 +481,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day55/day55_calibration.ipynb` — calibration, reliability, and proper scoring rules.
 - `days/day56/day56_uncertainty_types.ipynb` — aleatoric vs epistemic uncertainty and decision implications.
 - `days/day57/day57_bayesian_thinking.ipynb` — Bayesian priors, posteriors, and MAP intuition.
+- `days/day58/day58_information_bottleneck.ipynb` — information bottleneck, compression, and representation learning.
 
 ## Environment Setup
 
@@ -715,6 +723,10 @@ python -m days.day56.code.visualizations   # PNG plots → days/day56/outputs/
 # Day 57
 python -m days.day57.code.bayes_demo
 python -m days.day57.code.visualizations   # PNG plots → days/day57/outputs/
+
+# Day 58
+python -m days.day58.code.information_bottleneck_demo
+python -m days.day58.code.visualizations   # PNG plots → days/day58/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
