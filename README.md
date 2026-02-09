@@ -426,6 +426,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day60/
+    day60_metric_learning.ipynb
+    code/
+      metric_learning_demo.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -490,6 +497,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day57/day57_bayesian_thinking.ipynb` — Bayesian priors, posteriors, and MAP intuition.
 - `days/day58/day58_information_bottleneck.ipynb` — information bottleneck, compression, and representation learning.
 - `days/day59/day59_manifolds_embeddings.ipynb` — manifolds, embeddings, and low-dimensional data structure.
+- `days/day60/day60_metric_learning.ipynb` — metric learning, contrastive losses, and similarity geometry.
 
 ## Environment Setup
 
@@ -739,6 +747,10 @@ python -m days.day58.code.visualizations   # PNG plots → days/day58/outputs/
 # Day 59
 python -m days.day59.code.manifold_demo
 python -m days.day59.code.visualizations   # PNG plots → days/day59/outputs/
+
+# Day 60
+python -m days.day60.code.metric_learning_demo
+python -m days.day60.code.visualizations   # PNG plots → days/day60/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
