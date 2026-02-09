@@ -433,6 +433,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day61/
+    day61_self_supervised.ipynb
+    code/
+      ssl_demo.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -498,6 +505,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day58/day58_information_bottleneck.ipynb` — information bottleneck, compression, and representation learning.
 - `days/day59/day59_manifolds_embeddings.ipynb` — manifolds, embeddings, and low-dimensional data structure.
 - `days/day60/day60_metric_learning.ipynb` — metric learning, contrastive losses, and similarity geometry.
+- `days/day61/day61_self_supervised.ipynb` — self-supervised learning and structure-derived supervision.
 
 ## Environment Setup
 
@@ -751,6 +759,10 @@ python -m days.day59.code.visualizations   # PNG plots → days/day59/outputs/
 # Day 60
 python -m days.day60.code.metric_learning_demo
 python -m days.day60.code.visualizations   # PNG plots → days/day60/outputs/
+
+# Day 61
+python -m days.day61.code.ssl_demo
+python -m days.day61.code.visualizations   # PNG plots → days/day61/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
