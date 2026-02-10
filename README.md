@@ -440,6 +440,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day62/
+    day62_contrastive_vs_noncontrastive.ipynb
+    code/
+      ssl_comparison.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -506,6 +513,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day59/day59_manifolds_embeddings.ipynb` — manifolds, embeddings, and low-dimensional data structure.
 - `days/day60/day60_metric_learning.ipynb` — metric learning, contrastive losses, and similarity geometry.
 - `days/day61/day61_self_supervised.ipynb` — self-supervised learning and structure-derived supervision.
+- `days/day62/day62_contrastive_vs_noncontrastive.ipynb` — contrastive vs non-contrastive SSL and collapse avoidance geometry.
 
 ## Environment Setup
 
@@ -763,6 +771,10 @@ python -m days.day60.code.visualizations   # PNG plots → days/day60/outputs/
 # Day 61
 python -m days.day61.code.ssl_demo
 python -m days.day61.code.visualizations   # PNG plots → days/day61/outputs/
+
+# Day 62
+python -m days.day62.code.ssl_comparison
+python -m days.day62.code.visualizations   # PNG plots → days/day62/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
