@@ -447,6 +447,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day63/
+    day63_regularization_revisited.ipynb
+    code/
+      regularization_revisited.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -514,6 +521,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day60/day60_metric_learning.ipynb` — metric learning, contrastive losses, and similarity geometry.
 - `days/day61/day61_self_supervised.ipynb` — self-supervised learning and structure-derived supervision.
 - `days/day62/day62_contrastive_vs_noncontrastive.ipynb` — contrastive vs non-contrastive SSL and collapse avoidance geometry.
+- `days/day63/day63_regularization_revisited.ipynb` — unified view of regularization via noise, dropout, and augmentation.
 
 ## Environment Setup
 
@@ -775,6 +783,10 @@ python -m days.day61.code.visualizations   # PNG plots → days/day61/outputs/
 # Day 62
 python -m days.day62.code.ssl_comparison
 python -m days.day62.code.visualizations   # PNG plots → days/day62/outputs/
+
+# Day 63
+python -m days.day63.code.regularization_revisited
+python -m days.day63.code.visualizations   # PNG plots → days/day63/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
