@@ -454,6 +454,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day64/
+    day64_distribution_shift.ipynb
+    code/
+      distribution_shift_demo.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -522,6 +529,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day61/day61_self_supervised.ipynb` — self-supervised learning and structure-derived supervision.
 - `days/day62/day62_contrastive_vs_noncontrastive.ipynb` — contrastive vs non-contrastive SSL and collapse avoidance geometry.
 - `days/day63/day63_regularization_revisited.ipynb` — unified view of regularization via noise, dropout, and augmentation.
+- `days/day64/day64_distribution_shift.ipynb` — distribution shift types and domain adaptation intuition.
 
 ## Environment Setup
 
@@ -787,6 +795,10 @@ python -m days.day62.code.visualizations   # PNG plots → days/day62/outputs/
 # Day 63
 python -m days.day63.code.regularization_revisited
 python -m days.day63.code.visualizations   # PNG plots → days/day63/outputs/
+
+# Day 64
+python -m days.day64.code.distribution_shift_demo
+python -m days.day64.code.visualizations   # PNG plots → days/day64/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
