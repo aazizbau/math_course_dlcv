@@ -461,6 +461,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day65/
+    day65_ood_detection.ipynb
+    code/
+      ood_detection_demo.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -530,6 +537,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day62/day62_contrastive_vs_noncontrastive.ipynb` — contrastive vs non-contrastive SSL and collapse avoidance geometry.
 - `days/day63/day63_regularization_revisited.ipynb` — unified view of regularization via noise, dropout, and augmentation.
 - `days/day64/day64_distribution_shift.ipynb` — distribution shift types and domain adaptation intuition.
+- `days/day65/day65_ood_detection.ipynb` — OOD detection, confidence failure, and geometry-based signals.
 
 ## Environment Setup
 
@@ -799,6 +807,10 @@ python -m days.day63.code.visualizations   # PNG plots → days/day63/outputs/
 # Day 64
 python -m days.day64.code.distribution_shift_demo
 python -m days.day64.code.visualizations   # PNG plots → days/day64/outputs/
+
+# Day 65
+python -m days.day65.code.ood_detection_demo
+python -m days.day65.code.visualizations   # PNG plots → days/day65/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
