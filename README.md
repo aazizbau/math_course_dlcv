@@ -475,6 +475,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day67/
+    day67_scaling_laws.ipynb
+    code/
+      scaling_laws_demo.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -546,6 +553,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day64/day64_distribution_shift.ipynb` — distribution shift types and domain adaptation intuition.
 - `days/day65/day65_ood_detection.ipynb` — OOD detection, confidence failure, and geometry-based signals.
 - `days/day66/day66_causal_thinking.ipynb` — causal thinking, shortcut learning, and invariance under shift.
+- `days/day67/day67_scaling_laws.ipynb` — scaling laws, double descent, and overparameterization intuition.
 
 ## Environment Setup
 
@@ -823,6 +831,10 @@ python -m days.day65.code.visualizations   # PNG plots → days/day65/outputs/
 # Day 66
 python -m days.day66.code.causal_shortcuts
 python -m days.day66.code.visualizations   # PNG plots → days/day66/outputs/
+
+# Day 67
+python -m days.day67.code.scaling_laws_demo
+python -m days.day67.code.visualizations   # PNG plots → days/day67/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
