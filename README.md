@@ -496,6 +496,13 @@ days/
       visualizations.py
     outputs/
       *.png
+  day70/
+    day70_unified_picture.ipynb
+    code/
+      unified_picture.py
+      visualizations.py
+    outputs/
+      *.png
 README.md
 ```
 
@@ -570,6 +577,7 @@ Future days should mirror this shape, making it easy to navigate the course time
 - `days/day67/day67_scaling_laws.ipynb` — scaling laws, double descent, and overparameterization intuition.
 - `days/day68/day68_optimization_geometry.ipynb` — SGD geometry, flat minima bias, and high-dimensional optimization.
 - `days/day69/day69_optimization_generalization.ipynb` — optimization vs generalization and why train loss is incomplete.
+- `days/day70/day70_unified_picture.ipynb` — unified synthesis of optimization, geometry, information, and statistics.
 
 ## Environment Setup
 
@@ -859,6 +867,10 @@ python -m days.day68.code.visualizations   # PNG plots → days/day68/outputs/
 # Day 69
 python -m days.day69.code.optimization_vs_generalization
 python -m days.day69.code.visualizations   # PNG plots → days/day69/outputs/
+
+# Day 70
+python -m days.day70.code.unified_picture
+python -m days.day70.code.visualizations   # PNG plots → days/day70/outputs/
 ```
 
 Each notebook (`days/dayXX/*.ipynb`) walks through the same math with commentary and optional animation toggles.
